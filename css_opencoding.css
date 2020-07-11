@@ -1,0 +1,170 @@
+.path-mod-page .generalbox img{
+  border: 2px solid black;
+  width: 100%;
+  box-shadow: 1px 1px 5px 0px rgba(200,200,200,1);
+}
+
+.notyetanswered .content {
+    border: 8px solid #FFBBAB;
+    border-radius: 5px;
+    padding: 4px;
+}
+.notyetanswered .content::after {
+  content: "Die Frage wurde noch nicht beantwortet";
+}
+
+.que.description.notyetanswered .content{
+    border: 8px solid #ccc;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.que.description.notyetanswered .content::after {
+  content: "";
+}
+
+.invalidanswer .content{
+    border: 8px solid #FFCCCC;
+    border-radius: 5px;
+    padding: 4px;
+}
+.invalidanswer .content::after {
+  content: "Warnung: Dieser Code ist noch nicht korrekt!";
+}
+
+.immediatefeedback.complete .content{
+    border: 8px solid #CCFFCC;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.immediatefeedback.complete .content::after {
+  content: "Deine Lösung ist korrekt - du kannst fortfahren";
+}
+
+.path-mod-quiz #mod_quiz_navblock .qnbutton.notyetanswered .trafficlight, .path-mod-quiz #mod_quiz_navblock .qnbutton.invalidanswer .trafficlight {
+  background-color: #faa
+}
+
+
+.que .formulation {
+  background-color: white
+}
+
+.que img {
+  width: 100%;
+  border: 2px solid #888;
+}.que .formulation {
+  background-color: white
+}
+
+.que img {
+  width: 100%;
+  border: 2px solid #888;
+}
+
+block_filtered_course_list block {
+
+}
+
+/*
+Activity-Navigation
+*/
+
+.activity-navigation {
+  border-top: 3px #ccc dashed ;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.activity-navigation .btn {
+  background-color: #efefef;
+  border: 2px solid #eee; 
+  font-size: 11px;
+  text-decoration: none;
+  height: 45px;
+}
+
+.activity-navigation .btn:hover {
+  background-color: #cdcdcd;
+  border: 2px solid #eee;
+  text-decoration: none;
+}
+
+.activity-navigation #jump-to-activity {
+  visibility: hidden;
+}
+
+
+#sectionmenu {
+  display: none;
+}
+
+.course-content .single-section .section-navigation .mdl-right{
+  display: none;
+}
+
+
+/*
+Backlinks
+---------
+*/
+.topic-backlink {
+  background-color: #efefef;
+  border: 2px solid #eee; 
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  text-align: center;
+}
+
+.topic-backlink:hover {
+  background-color: #cdcdcd;
+  border: 2px solid #eee;
+  text-decoration: none;
+}
+
+
+
+/*
+Completion
+-----------------
+*/
+
+.completed {
+  background-color: #efe;
+}
+
+.incomplete {
+  background-color: #ffe;
+}
+
+/*
+Activity page
+-----------------
+*/
+.modified {
+  font-size: 10px;
+}
+.modified:before {
+  font-family: FontAwesome;
+  content: "\f073";
+  display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight: 900;
+}
+
+/*
+Quiz
+-----------------
+*/
+
+#page-mod-quiz-attempt .submitbtns .mod_quiz-next-nav, 
+#page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav {
+  width: 100%;
+  float: none;
+}
